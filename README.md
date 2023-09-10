@@ -1,1 +1,1 @@
-# writing-circuits-in-circom
+# Writing circuits in circom
