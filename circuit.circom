@@ -1,6 +1,3 @@
-// pragma circom 2.0.0;
-
-
 // f(x,y) = x^2 * y + x * y^2 + 17;
 
 // Signal definition
