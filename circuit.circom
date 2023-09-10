@@ -14,7 +14,6 @@ template F(){
 	signal m1 <== x * x;
 	signal m2 <== m1 * y;
 
-
 	signal m3 <== y * y;
 	signal m4 <== m3 * x;
 	
@@ -23,3 +22,17 @@ template F(){
 }
 
 component main = F(); 
+
+
+
+/* 
+Calculate witness:
+snarkjs wtns calculate circuit.wasm input.json witness.wtns
+
+Save witness as json file
+snarkjs wtns export json witness.wtns witness.json
+
+To debug if there's error:
+snarkjs wtns debug circuit.wasm input.json witness.wtns circuit.sym
+
+ */
